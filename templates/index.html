@@ -1,0 +1,25 @@
+{% extends 'base.html' %} {% block head %}{% endblock head %} {% block body %}
+<h1>Hello World</h1>
+
+<table>
+    <tr>
+        <th>Task</th>
+        <th>Added</th>
+        <th>Actions</th>
+
+    </tr>
+    {% for todo in context.todos %}
+    <tr>
+
+        <td>{{todo.content}}</td>
+        <td>{{todo.date_created}}</td>
+        <td><a href="/delete/{{todo.id}}/">Delete</a> <br> <a href="/update/{{todo.id}}/">Update</a></td>
+
+    </tr>
+    {% endfor %}
+</table>
+<form action="/" method="POST">
+    <input type="text" name="content" id="content" {% if context.todo %} value="{{context.todo.content}}" {%endif %}>
+    <input type="submit" name="" id="">
+</form>
+{% endblock body %}

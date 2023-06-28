@@ -1,0 +1,9 @@
+{% extends 'base.html' %} {% block head %}{% endblock head %} {% block body %}
+<h1>Hello World</h1>
+
+<h1>Update</h1>
+<form action="/update/{{context.id}}/" method="POST">
+  <input type="text" name="content" id="content" value="{{context.content}}" />
+  <input type="submit" name="" id="" />
+</form>
+{% endblock body %}
