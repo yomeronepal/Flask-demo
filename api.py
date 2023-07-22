@@ -62,3 +62,8 @@ def todo_create_update(id):
 @app.route("/health/", methods=["GET"])
 def health_check():
     return {}, 200
+
+
+@app.route("/check/", methods=["GET"])
+def just_check():
+    return {}, 200
