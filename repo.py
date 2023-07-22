@@ -3,6 +3,7 @@ from settings import db
 from exception import CustomException
 from flask import jsonify
 from interface import TodoInterface
+from datetime import datetime
 
 
 class TodoRepo(TodoInterface):
@@ -11,11 +12,15 @@ class TodoRepo(TodoInterface):
         return todo
 
     def get(self):
-        todos = Todo.query.all()
+        todos = Todo.query.order_by(Todo.date_created).all()
         return jsonify([todo.serialize() for todo in todos])
 
-    def create(self, content: str):
-        todo = Todo(content=content)
+    def create(self, content: str, date_created, description):
+        todo = Todo(
+            title=content,
+            event_date=datetime.strptime(date_created, "%d/%m/%Y"),
+            description=description,
+        )
         try:
             db.session.add(todo)
             db.session.commit()

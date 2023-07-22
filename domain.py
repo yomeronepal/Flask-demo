@@ -1,5 +1,8 @@
 from dataclasses import dataclass
 
-@dataclass(frozen=True  )
+
+@dataclass(frozen=True)
 class TodoDomain:
-    content: int
+    title: str
+    date: str
+    description: str

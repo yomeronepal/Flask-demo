@@ -1,0 +1,1043 @@
+[2023-07-06T00:35:55.232+0545] {processor.py:157} INFO - Started process (PID=23704) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T00:35:55.232+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T00:35:55.233+0545] {logging_mixin.py:149} INFO - [2023-07-06T00:35:55.232+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T00:35:55.235+0545] {logging_mixin.py:149} INFO - [2023-07-06T00:35:55.235+0545] {dagbag.py:350} ERROR - Failed to import: /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+Traceback (most recent call last):
+  File "/Users/rojeshprajapati/Desktop/practise/flask/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py", line 27, in <module>
+    create_dag()
+TypeError: create_dag() missing 2 required positional arguments: 'dag_id' and 'user_datetime'
+[2023-07-06T00:35:55.235+0545] {processor.py:838} WARNING - No viable dags retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T00:35:55.661+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.430 seconds
+[2023-07-06T01:41:06.288+0545] {processor.py:157} INFO - Started process (PID=32001) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:41:06.289+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T01:41:06.289+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:41:06.289+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:41:06.306+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:41:06.359+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:41:06.359+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T01:41:06.894+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:41:06.894+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T01:41:06.912+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.625 seconds
+[2023-07-06T01:43:24.267+0545] {processor.py:157} INFO - Started process (PID=32246) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:43:24.268+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T01:43:24.269+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:43:24.269+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:43:24.286+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:43:24.339+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:43:24.338+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T01:43:24.865+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:43:24.865+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T01:43:24.882+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.616 seconds
+[2023-07-06T01:45:28.992+0545] {processor.py:157} INFO - Started process (PID=32358) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:45:28.993+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T01:45:28.994+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:45:28.994+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:45:29.011+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:45:29.650+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:45:29.650+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T01:45:29.664+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:45:29.663+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T01:45:29.678+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.687 seconds
+[2023-07-06T01:47:02.932+0545] {processor.py:157} INFO - Started process (PID=32409) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:47:02.933+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T01:47:02.933+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:47:02.933+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:47:02.952+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:47:03.590+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:47:03.590+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T01:47:03.605+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:47:03.604+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T01:47:03.620+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.689 seconds
+[2023-07-06T01:48:41.737+0545] {processor.py:157} INFO - Started process (PID=32497) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:48:41.737+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T01:48:41.738+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:48:41.738+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:48:41.756+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:48:42.409+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:48:42.408+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T01:48:42.423+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:48:42.423+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T01:48:42.438+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.702 seconds
+[2023-07-06T01:50:20.127+0545] {processor.py:157} INFO - Started process (PID=32993) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:50:20.128+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T01:50:20.129+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:50:20.129+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:50:20.146+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:50:20.791+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:50:20.791+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T01:50:20.805+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:50:20.805+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T01:50:20.822+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.695 seconds
+[2023-07-06T01:52:00.397+0545] {processor.py:157} INFO - Started process (PID=33161) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:52:00.399+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T01:52:00.399+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:52:00.399+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:52:00.417+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:52:01.050+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:52:01.050+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T01:52:01.064+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:52:01.064+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T01:52:01.080+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.683 seconds
+[2023-07-06T01:53:52.099+0545] {processor.py:157} INFO - Started process (PID=34787) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:53:52.101+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T01:53:52.101+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:53:52.101+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:53:52.121+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:53:52.174+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:53:52.174+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T01:53:52.690+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:53:52.690+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T01:53:52.708+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.609 seconds
+[2023-07-06T01:56:03.653+0545] {processor.py:157} INFO - Started process (PID=35884) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:56:03.655+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T01:56:03.655+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:56:03.655+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:56:03.673+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:56:04.323+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:56:04.322+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T01:56:04.337+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:56:04.337+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T01:56:04.352+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.699 seconds
+[2023-07-06T01:57:41.494+0545] {processor.py:157} INFO - Started process (PID=36116) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:57:41.495+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T01:57:41.496+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:57:41.496+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:57:41.513+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:57:42.169+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:57:42.169+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T01:57:42.184+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:57:42.183+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T01:57:42.199+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.705 seconds
+[2023-07-06T01:59:19.069+0545] {processor.py:157} INFO - Started process (PID=36310) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:59:19.070+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T01:59:19.071+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:59:19.071+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:59:19.089+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T01:59:19.723+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:59:19.722+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T01:59:19.737+0545] {logging_mixin.py:149} INFO - [2023-07-06T01:59:19.736+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T01:59:19.751+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.683 seconds
+[2023-07-06T02:01:04.769+0545] {processor.py:157} INFO - Started process (PID=36424) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:01:04.770+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:01:04.771+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:01:04.770+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:01:04.788+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:01:05.412+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:01:05.412+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:01:05.426+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:01:05.426+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:01:05.441+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.673 seconds
+[2023-07-06T02:02:44.809+0545] {processor.py:157} INFO - Started process (PID=36481) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:02:44.810+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:02:44.811+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:02:44.811+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:02:44.828+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:02:45.448+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:02:45.448+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:02:45.462+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:02:45.462+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:02:45.481+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.673 seconds
+[2023-07-06T02:04:15.271+0545] {processor.py:157} INFO - Started process (PID=36538) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:04:15.272+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:04:15.273+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:04:15.272+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:04:15.290+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:04:15.911+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:04:15.911+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:04:15.925+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:04:15.925+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:04:15.940+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.669 seconds
+[2023-07-06T02:05:52.430+0545] {processor.py:157} INFO - Started process (PID=36590) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:05:52.432+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:05:52.432+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:05:52.432+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:05:52.450+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:05:53.087+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:05:53.087+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:05:53.101+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:05:53.101+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:05:53.117+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.687 seconds
+[2023-07-06T02:07:30.836+0545] {processor.py:157} INFO - Started process (PID=36645) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:07:30.837+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:07:30.838+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:07:30.838+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:07:30.855+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:07:31.485+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:07:31.485+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:07:31.500+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:07:31.500+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:07:31.515+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.680 seconds
+[2023-07-06T02:09:07.288+0545] {processor.py:157} INFO - Started process (PID=36706) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:09:07.289+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:09:07.290+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:09:07.289+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:09:07.307+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:09:07.946+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:09:07.946+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:09:07.960+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:09:07.960+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:09:07.977+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.689 seconds
+[2023-07-06T02:10:47.416+0545] {processor.py:157} INFO - Started process (PID=36775) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:10:47.417+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:10:47.418+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:10:47.418+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:10:47.440+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:10:48.544+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:10:48.543+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:10:48.561+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:10:48.561+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:10:48.581+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 1.166 seconds
+[2023-07-06T02:12:26.494+0545] {processor.py:157} INFO - Started process (PID=36830) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:12:26.496+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:12:26.496+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:12:26.496+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:12:26.514+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:12:27.140+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:12:27.140+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:12:27.154+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:12:27.154+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:12:27.169+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.677 seconds
+[2023-07-06T02:14:03.699+0545] {processor.py:157} INFO - Started process (PID=36883) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:14:03.700+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:14:03.701+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:14:03.701+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:14:03.719+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:14:04.367+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:14:04.366+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:14:04.381+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:14:04.381+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:14:04.398+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.699 seconds
+[2023-07-06T02:15:39.447+0545] {processor.py:157} INFO - Started process (PID=36938) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:15:39.448+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:15:39.448+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:15:39.448+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:15:39.466+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:15:40.105+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:15:40.105+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:15:40.119+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:15:40.119+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:15:40.135+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.688 seconds
+[2023-07-06T02:17:19.832+0545] {processor.py:157} INFO - Started process (PID=36993) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:17:19.834+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:17:19.834+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:17:19.834+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:17:19.851+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:17:20.473+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:17:20.473+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:17:20.487+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:17:20.487+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:17:20.503+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.671 seconds
+[2023-07-06T02:18:17.197+0545] {processor.py:157} INFO - Started process (PID=37072) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:18:17.198+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:18:17.199+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:18:17.199+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:18:17.216+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:18:17.278+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:18:17.278+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:18:17.799+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:18:17.799+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:18:17.815+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.618 seconds
+[2023-07-06T02:18:57.177+0545] {processor.py:157} INFO - Started process (PID=37188) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:18:57.178+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:18:57.178+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:18:57.178+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:18:57.196+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:18:57.255+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:18:57.254+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:18:57.784+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:18:57.784+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:18:57.802+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.625 seconds
+[2023-07-06T02:20:29.622+0545] {processor.py:157} INFO - Started process (PID=37355) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:20:29.623+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:20:29.623+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:20:29.623+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:20:29.641+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:20:29.695+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:20:29.695+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:20:30.225+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:20:30.225+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:20:30.245+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.624 seconds
+[2023-07-06T02:21:11.954+0545] {processor.py:157} INFO - Started process (PID=37459) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:21:11.956+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:21:11.956+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:21:11.956+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:21:11.973+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:21:12.026+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:21:12.026+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:21:12.571+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:21:12.571+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:21:12.588+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.634 seconds
+[2023-07-06T02:23:21.074+0545] {processor.py:157} INFO - Started process (PID=37562) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:23:21.075+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:23:21.076+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:23:21.076+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:23:21.095+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:23:21.751+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:23:21.750+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:23:21.765+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:23:21.765+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:23:21.781+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.707 seconds
+[2023-07-06T02:24:32.435+0545] {processor.py:157} INFO - Started process (PID=37733) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:24:32.436+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:24:32.437+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:24:32.437+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:24:32.454+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:24:32.508+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:24:32.507+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:24:33.025+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:24:33.025+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:24:33.041+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.606 seconds
+[2023-07-06T02:25:36.806+0545] {processor.py:157} INFO - Started process (PID=37827) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:25:36.807+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:25:36.808+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:25:36.808+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:25:36.825+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:25:36.879+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:25:36.878+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:25:37.394+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:25:37.394+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:25:37.410+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.605 seconds
+[2023-07-06T02:27:52.402+0545] {processor.py:157} INFO - Started process (PID=37979) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:27:52.404+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:27:52.404+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:27:52.404+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:27:52.422+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:27:53.050+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:27:53.049+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:27:53.063+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:27:53.063+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:27:53.079+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.677 seconds
+[2023-07-06T02:29:38.958+0545] {processor.py:157} INFO - Started process (PID=38088) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:29:38.959+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:29:38.959+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:29:38.959+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:29:38.978+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:29:39.613+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:29:39.612+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:29:39.627+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:29:39.627+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:29:39.642+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.685 seconds
+[2023-07-06T02:31:24.451+0545] {processor.py:157} INFO - Started process (PID=38167) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:31:24.452+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:31:24.452+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:31:24.452+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:31:24.470+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:31:25.102+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:31:25.101+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:31:25.116+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:31:25.116+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:31:25.131+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.681 seconds
+[2023-07-06T02:33:04.812+0545] {processor.py:157} INFO - Started process (PID=38226) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:33:04.813+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:33:04.813+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:33:04.813+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:33:04.831+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:33:05.467+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:33:05.467+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:33:05.482+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:33:05.481+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:33:05.498+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.686 seconds
+[2023-07-06T02:34:47.080+0545] {processor.py:157} INFO - Started process (PID=38282) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:34:47.082+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:34:47.083+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:34:47.082+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:34:47.100+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:34:47.729+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:34:47.729+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:34:47.744+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:34:47.743+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:34:47.760+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.681 seconds
+[2023-07-06T02:36:27.308+0545] {processor.py:157} INFO - Started process (PID=38356) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:36:27.309+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:36:27.310+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:36:27.310+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:36:27.330+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:36:27.963+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:36:27.963+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:36:27.978+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:36:27.978+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:36:27.994+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.687 seconds
+[2023-07-06T02:38:12.396+0545] {processor.py:157} INFO - Started process (PID=38414) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:38:12.397+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:38:12.398+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:38:12.397+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:38:12.415+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:38:13.049+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:38:13.049+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:38:13.063+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:38:13.063+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:38:13.080+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.685 seconds
+[2023-07-06T02:39:53.431+0545] {processor.py:157} INFO - Started process (PID=38473) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:39:53.434+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:39:53.435+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:39:53.434+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:39:53.452+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:39:54.078+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:39:54.078+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:39:54.092+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:39:54.092+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:39:54.108+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.677 seconds
+[2023-07-06T02:41:36.140+0545] {processor.py:157} INFO - Started process (PID=38530) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:41:36.141+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:41:36.142+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:41:36.141+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:41:36.159+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:41:36.786+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:41:36.785+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:41:36.799+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:41:36.799+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:41:36.816+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.677 seconds
+[2023-07-06T02:43:16.304+0545] {processor.py:157} INFO - Started process (PID=38610) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:43:16.305+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:43:16.305+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:43:16.305+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:43:16.323+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:43:16.946+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:43:16.945+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:43:16.959+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:43:16.959+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:43:16.974+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.671 seconds
+[2023-07-06T02:44:56.077+0545] {processor.py:157} INFO - Started process (PID=38667) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:44:56.079+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:44:56.079+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:44:56.079+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:44:56.096+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:44:56.728+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:44:56.728+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:44:56.743+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:44:56.742+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:44:56.758+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.681 seconds
+[2023-07-06T02:46:35.833+0545] {processor.py:157} INFO - Started process (PID=38726) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:46:35.835+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:46:35.835+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:46:35.835+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:46:35.852+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:46:36.481+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:46:36.481+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:46:36.495+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:46:36.495+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:46:36.511+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.679 seconds
+[2023-07-06T02:48:14.825+0545] {processor.py:157} INFO - Started process (PID=38780) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:48:14.826+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:48:14.826+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:48:14.826+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:48:14.844+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:48:15.472+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:48:15.472+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:48:15.486+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:48:15.486+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:48:15.502+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.677 seconds
+[2023-07-06T02:49:49.604+0545] {processor.py:157} INFO - Started process (PID=38852) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:49:49.605+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:49:49.606+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:49:49.605+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:49:49.623+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:49:50.245+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:49:50.245+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:49:50.259+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:49:50.259+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:49:50.274+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.671 seconds
+[2023-07-06T02:51:26.171+0545] {processor.py:157} INFO - Started process (PID=38908) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:51:26.172+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:51:26.173+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:51:26.173+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:51:26.190+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:51:26.819+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:51:26.819+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:51:26.834+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:51:26.833+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:51:26.849+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.679 seconds
+[2023-07-06T02:52:59.815+0545] {processor.py:157} INFO - Started process (PID=38963) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:52:59.817+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:52:59.817+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:52:59.817+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:52:59.835+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:53:00.466+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:53:00.466+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:53:00.480+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:53:00.480+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:53:00.495+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.680 seconds
+[2023-07-06T02:54:32.697+0545] {processor.py:157} INFO - Started process (PID=39013) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:54:32.698+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:54:32.698+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:54:32.698+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:54:32.716+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:54:33.356+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:54:33.356+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:54:33.370+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:54:33.370+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:54:33.385+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.689 seconds
+[2023-07-06T02:56:09.537+0545] {processor.py:157} INFO - Started process (PID=39070) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:56:09.538+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:56:09.538+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:56:09.538+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:56:09.556+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:56:10.182+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:56:10.182+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:56:10.196+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:56:10.196+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:56:10.212+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.676 seconds
+[2023-07-06T02:57:48.692+0545] {processor.py:157} INFO - Started process (PID=39171) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:57:48.694+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:57:48.694+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:57:48.694+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:57:48.711+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:57:49.341+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:57:49.341+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:57:49.355+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:57:49.355+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:57:49.371+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.679 seconds
+[2023-07-06T02:59:31.453+0545] {processor.py:157} INFO - Started process (PID=39238) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:59:31.455+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T02:59:31.455+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:59:31.455+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:59:31.472+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T02:59:32.100+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:59:32.100+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T02:59:32.114+0545] {logging_mixin.py:149} INFO - [2023-07-06T02:59:32.114+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T02:59:32.129+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.676 seconds
+[2023-07-06T03:01:13.527+0545] {processor.py:157} INFO - Started process (PID=39298) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:01:13.528+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:01:13.529+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:01:13.529+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:01:13.546+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:01:14.169+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:01:14.168+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:01:14.182+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:01:14.182+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:01:14.198+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.672 seconds
+[2023-07-06T03:02:57.800+0545] {processor.py:157} INFO - Started process (PID=39378) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:02:57.801+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:02:57.802+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:02:57.802+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:02:57.819+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:02:58.460+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:02:58.460+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:02:58.475+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:02:58.475+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:02:58.491+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.691 seconds
+[2023-07-06T03:04:39.325+0545] {processor.py:157} INFO - Started process (PID=39437) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:04:39.327+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:04:39.327+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:04:39.327+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:04:39.345+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:04:39.981+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:04:39.980+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:04:39.995+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:04:39.994+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:04:40.011+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.686 seconds
+[2023-07-06T03:06:18.589+0545] {processor.py:157} INFO - Started process (PID=39510) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:06:18.590+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:06:18.590+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:06:18.590+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:06:18.608+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:06:19.240+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:06:19.240+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:06:19.254+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:06:19.254+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:06:19.269+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.681 seconds
+[2023-07-06T03:08:02.347+0545] {processor.py:157} INFO - Started process (PID=39566) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:08:02.349+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:08:02.349+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:08:02.349+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:08:02.366+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:08:02.993+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:08:02.993+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:08:03.008+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:08:03.007+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:08:03.023+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.676 seconds
+[2023-07-06T03:09:44.899+0545] {processor.py:157} INFO - Started process (PID=39628) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:09:44.901+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:09:44.901+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:09:44.901+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:09:44.919+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:09:45.546+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:09:45.545+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:09:45.559+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:09:45.559+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:09:45.575+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.676 seconds
+[2023-07-06T03:11:26.657+0545] {processor.py:157} INFO - Started process (PID=39684) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:11:26.657+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:11:26.658+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:11:26.658+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:11:26.675+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:11:27.307+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:11:27.307+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:11:27.321+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:11:27.321+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:11:27.336+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.680 seconds
+[2023-07-06T03:13:10.196+0545] {processor.py:157} INFO - Started process (PID=39758) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:13:10.197+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:13:10.198+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:13:10.198+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:13:10.216+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:13:10.842+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:13:10.841+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:13:10.856+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:13:10.855+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:13:10.871+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.676 seconds
+[2023-07-06T03:14:51.689+0545] {processor.py:157} INFO - Started process (PID=39835) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:14:51.691+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:14:51.691+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:14:51.691+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:14:51.709+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:14:52.339+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:14:52.339+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:14:52.353+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:14:52.353+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:14:52.369+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.680 seconds
+[2023-07-06T03:16:32.531+0545] {processor.py:157} INFO - Started process (PID=39896) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:16:32.532+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:16:32.532+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:16:32.532+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:16:32.550+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:16:33.200+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:16:33.200+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:16:33.214+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:16:33.214+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:16:33.229+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.699 seconds
+[2023-07-06T03:18:15.320+0545] {processor.py:157} INFO - Started process (PID=39952) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:18:15.322+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:18:15.322+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:18:15.322+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:18:15.339+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:18:15.968+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:18:15.968+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:18:15.982+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:18:15.982+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:18:16.000+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.680 seconds
+[2023-07-06T03:19:56.537+0545] {processor.py:157} INFO - Started process (PID=40009) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:19:56.538+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:19:56.539+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:19:56.539+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:19:56.557+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:19:57.188+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:19:57.188+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:19:57.203+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:19:57.203+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:19:57.218+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.682 seconds
+[2023-07-06T03:21:40.289+0545] {processor.py:157} INFO - Started process (PID=40068) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:21:40.290+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:21:40.290+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:21:40.290+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:21:40.308+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:21:40.944+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:21:40.944+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:21:40.958+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:21:40.958+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:21:40.977+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.688 seconds
+[2023-07-06T03:23:24.350+0545] {processor.py:157} INFO - Started process (PID=40122) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:23:24.352+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:23:24.352+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:23:24.352+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:23:24.369+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:23:24.997+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:23:24.996+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:23:25.010+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:23:25.010+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:23:25.026+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.676 seconds
+[2023-07-06T03:25:01.687+0545] {processor.py:157} INFO - Started process (PID=40177) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:25:01.688+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:25:01.688+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:25:01.688+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:25:01.706+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:25:02.336+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:25:02.336+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:25:02.352+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:25:02.352+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:25:02.369+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.683 seconds
+[2023-07-06T03:26:43.849+0545] {processor.py:157} INFO - Started process (PID=40236) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:26:43.851+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:26:43.851+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:26:43.851+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:26:43.869+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:26:44.501+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:26:44.501+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:26:44.515+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:26:44.514+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:26:44.530+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.681 seconds
+[2023-07-06T03:28:24.307+0545] {processor.py:157} INFO - Started process (PID=40314) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:28:24.308+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:28:24.309+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:28:24.309+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:28:24.326+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:28:24.958+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:28:24.958+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:28:24.972+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:28:24.972+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:28:24.987+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.682 seconds
+[2023-07-06T03:30:05.535+0545] {processor.py:157} INFO - Started process (PID=40389) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:30:05.536+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:30:05.536+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:30:05.536+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:30:05.554+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:30:06.192+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:30:06.191+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:30:06.206+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:30:06.206+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:30:06.221+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.687 seconds
+[2023-07-06T03:31:48.610+0545] {processor.py:157} INFO - Started process (PID=40474) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:31:48.612+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:31:48.612+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:31:48.612+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:31:48.629+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:31:49.287+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:31:49.287+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:31:49.301+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:31:49.301+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:31:49.317+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.707 seconds
+[2023-07-06T03:33:26.850+0545] {processor.py:157} INFO - Started process (PID=40528) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:33:26.851+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:33:26.852+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:33:26.852+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:33:26.869+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:33:27.492+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:33:27.492+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:33:27.506+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:33:27.506+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:33:27.521+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.672 seconds
+[2023-07-06T03:35:03.578+0545] {processor.py:157} INFO - Started process (PID=40582) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:35:03.580+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:35:03.580+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:35:03.580+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:35:03.597+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:35:04.251+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:35:04.251+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:35:04.265+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:35:04.265+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:35:04.281+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.703 seconds
+[2023-07-06T03:36:44.813+0545] {processor.py:157} INFO - Started process (PID=40682) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:36:44.814+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:36:44.815+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:36:44.815+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:36:44.832+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:36:45.457+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:36:45.457+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:36:45.471+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:36:45.471+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:36:45.486+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.674 seconds
+[2023-07-06T03:38:29.688+0545] {processor.py:157} INFO - Started process (PID=40737) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:38:29.690+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:38:29.690+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:38:29.690+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:38:29.708+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:38:30.333+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:38:30.333+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:38:30.347+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:38:30.347+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:38:30.363+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.676 seconds
+[2023-07-06T03:40:09.995+0545] {processor.py:157} INFO - Started process (PID=40794) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:40:09.997+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:40:09.997+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:40:09.997+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:40:10.015+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:40:10.640+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:40:10.640+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:40:10.654+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:40:10.654+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:40:10.669+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.675 seconds
+[2023-07-06T03:41:50.359+0545] {processor.py:157} INFO - Started process (PID=40857) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:41:50.360+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:41:50.361+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:41:50.361+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:41:50.378+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:41:51.001+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:41:51.001+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:41:51.015+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:41:51.015+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:41:51.031+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.672 seconds
+[2023-07-06T03:43:30.175+0545] {processor.py:157} INFO - Started process (PID=40958) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:43:30.176+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:43:30.177+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:43:30.177+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:43:30.194+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:43:30.825+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:43:30.825+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:43:30.839+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:43:30.839+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:43:30.855+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.680 seconds
+[2023-07-06T03:45:11.523+0545] {processor.py:157} INFO - Started process (PID=41027) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:45:11.524+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:45:11.525+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:45:11.525+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:45:11.543+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:45:12.173+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:45:12.173+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:45:12.188+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:45:12.188+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:45:12.205+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.682 seconds
+[2023-07-06T03:46:54.770+0545] {processor.py:157} INFO - Started process (PID=41085) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:46:54.771+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:46:54.772+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:46:54.772+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:46:54.789+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:46:55.424+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:46:55.424+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:46:55.438+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:46:55.438+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:46:55.454+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.684 seconds
+[2023-07-06T03:48:37.264+0545] {processor.py:157} INFO - Started process (PID=41139) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:48:37.265+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:48:37.266+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:48:37.266+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:48:37.283+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:48:37.910+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:48:37.910+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:48:37.924+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:48:37.924+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:48:37.939+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.676 seconds
+[2023-07-06T03:50:18.584+0545] {processor.py:157} INFO - Started process (PID=41195) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:50:18.586+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:50:18.586+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:50:18.586+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:50:18.604+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:50:19.230+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:50:19.230+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:50:19.244+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:50:19.244+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:50:19.259+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.676 seconds
+[2023-07-06T03:51:59.743+0545] {processor.py:157} INFO - Started process (PID=41253) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:51:59.745+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:51:59.745+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:51:59.745+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:51:59.762+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:52:00.388+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:52:00.388+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:52:00.402+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:52:00.402+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:52:00.418+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.675 seconds
+[2023-07-06T03:53:34.771+0545] {processor.py:157} INFO - Started process (PID=41318) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:53:34.772+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:53:34.772+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:53:34.772+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:53:34.790+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:53:35.433+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:53:35.432+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:53:35.447+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:53:35.447+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:53:35.464+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.694 seconds
+[2023-07-06T03:55:15.581+0545] {processor.py:157} INFO - Started process (PID=41376) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:55:15.581+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:55:15.582+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:55:15.581+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:55:15.599+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:55:16.242+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:55:16.242+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:55:16.256+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:55:16.256+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:55:16.271+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.691 seconds
+[2023-07-06T03:56:53.616+0545] {processor.py:157} INFO - Started process (PID=41435) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:56:53.618+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:56:53.618+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:56:53.618+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:56:53.636+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:56:54.259+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:56:54.259+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:56:54.273+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:56:54.273+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:56:54.289+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.673 seconds
+[2023-07-06T03:58:33.895+0545] {processor.py:157} INFO - Started process (PID=41545) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:58:33.896+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T03:58:33.896+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:58:33.896+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:58:33.913+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T03:58:34.548+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:58:34.548+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T03:58:34.562+0545] {logging_mixin.py:149} INFO - [2023-07-06T03:58:34.562+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T03:58:34.577+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.683 seconds
+[2023-07-06T04:00:17.143+0545] {processor.py:157} INFO - Started process (PID=41606) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:00:17.144+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:00:17.145+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:00:17.145+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:00:17.162+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:00:17.791+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:00:17.791+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:00:17.805+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:00:17.805+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:00:17.822+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.679 seconds
+[2023-07-06T04:02:00.747+0545] {processor.py:157} INFO - Started process (PID=41667) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:02:00.749+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:02:00.749+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:02:00.749+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:02:00.766+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:02:01.395+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:02:01.394+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:02:01.409+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:02:01.409+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:02:01.429+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.682 seconds
+[2023-07-06T04:03:43.519+0545] {processor.py:157} INFO - Started process (PID=41725) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:03:43.521+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:03:43.521+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:03:43.521+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:03:43.542+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:03:44.183+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:03:44.182+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:03:44.197+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:03:44.197+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:03:44.213+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.694 seconds
+[2023-07-06T04:05:21.438+0545] {processor.py:157} INFO - Started process (PID=41780) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:05:21.439+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:05:21.439+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:05:21.439+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:05:21.457+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:05:22.083+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:05:22.082+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:05:22.096+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:05:22.096+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:05:22.112+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.675 seconds
+[2023-07-06T04:06:55.346+0545] {processor.py:157} INFO - Started process (PID=41836) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:06:55.347+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:06:55.347+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:06:55.347+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:06:55.365+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:06:56.019+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:06:56.018+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:06:56.033+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:06:56.033+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:06:56.048+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.703 seconds
+[2023-07-06T04:08:37.452+0545] {processor.py:157} INFO - Started process (PID=41893) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:08:37.453+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:08:37.453+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:08:37.453+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:08:37.471+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:08:38.094+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:08:38.093+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:08:38.108+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:08:38.107+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:08:38.123+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.672 seconds
+[2023-07-06T04:10:10.358+0545] {processor.py:157} INFO - Started process (PID=41948) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:10:10.359+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:10:10.360+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:10:10.360+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:10:10.377+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:10:11.004+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:10:11.004+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:10:11.018+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:10:11.018+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:10:11.033+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.676 seconds
+[2023-07-06T04:11:48.494+0545] {processor.py:157} INFO - Started process (PID=42021) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:11:48.495+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:11:48.495+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:11:48.495+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:11:48.513+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:11:49.138+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:11:49.138+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:11:49.152+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:11:49.152+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:11:49.167+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.674 seconds
+[2023-07-06T04:13:21.634+0545] {processor.py:157} INFO - Started process (PID=42075) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:13:21.635+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:13:21.636+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:13:21.636+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:13:21.654+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:13:22.286+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:13:22.286+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:13:22.300+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:13:22.300+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:13:22.315+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.682 seconds
+[2023-07-06T04:14:58.725+0545] {processor.py:157} INFO - Started process (PID=42129) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:14:58.726+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:14:58.726+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:14:58.726+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:14:58.744+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:14:59.368+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:14:59.368+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:14:59.382+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:14:59.382+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:14:59.398+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.674 seconds
+[2023-07-06T04:16:41.395+0545] {processor.py:157} INFO - Started process (PID=42189) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:16:41.396+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:16:41.397+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:16:41.397+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:16:41.414+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:16:42.045+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:16:42.045+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:16:42.059+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:16:42.059+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:16:42.077+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.682 seconds
+[2023-07-06T04:18:22.038+0545] {processor.py:157} INFO - Started process (PID=42247) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:18:22.039+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:18:22.040+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:18:22.040+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:18:22.058+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:18:22.680+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:18:22.680+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:18:22.694+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:18:22.694+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:18:22.709+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.671 seconds
+[2023-07-06T04:19:57.431+0545] {processor.py:157} INFO - Started process (PID=42301) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:19:57.432+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:19:57.432+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:19:57.432+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:19:57.451+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:19:58.081+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:19:58.081+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:19:58.095+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:19:58.095+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:19:58.110+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.681 seconds
+[2023-07-06T04:21:42.699+0545] {processor.py:157} INFO - Started process (PID=42358) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:21:42.700+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:21:42.700+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:21:42.700+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:21:42.717+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:21:43.363+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:21:43.362+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:21:43.377+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:21:43.376+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:21:43.393+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.694 seconds
+[2023-07-06T04:23:17.774+0545] {processor.py:157} INFO - Started process (PID=42413) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:23:17.776+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:23:17.776+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:23:17.776+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:23:17.794+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:23:18.420+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:23:18.419+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:23:18.434+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:23:18.434+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:23:18.449+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.675 seconds
+[2023-07-06T04:24:56.329+0545] {processor.py:157} INFO - Started process (PID=42467) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:24:56.331+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:24:56.331+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:24:56.331+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:24:56.349+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:24:56.979+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:24:56.979+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:24:56.994+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:24:56.993+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:24:57.009+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.680 seconds
+[2023-07-06T04:26:41.744+0545] {processor.py:157} INFO - Started process (PID=42523) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:26:41.746+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:26:41.746+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:26:41.746+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:26:41.764+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:26:42.403+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:26:42.403+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:26:42.417+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:26:42.417+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:26:42.433+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.690 seconds
+[2023-07-06T04:28:19.757+0545] {processor.py:157} INFO - Started process (PID=42625) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:28:19.758+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:28:19.759+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:28:19.758+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:28:19.777+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:28:20.425+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:28:20.425+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:28:20.439+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:28:20.439+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:28:20.455+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.699 seconds
+[2023-07-06T04:29:59.901+0545] {processor.py:157} INFO - Started process (PID=42724) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:29:59.903+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:29:59.903+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:29:59.903+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:29:59.921+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:30:00.600+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:30:00.599+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:30:00.614+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:30:00.614+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:30:00.630+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.729 seconds
+[2023-07-06T04:31:42.642+0545] {processor.py:157} INFO - Started process (PID=42787) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:31:42.643+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:31:42.644+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:31:42.644+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:31:42.662+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:31:43.302+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:31:43.302+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:31:43.316+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:31:43.316+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:31:43.333+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.691 seconds
+[2023-07-06T04:33:20.490+0545] {processor.py:157} INFO - Started process (PID=42845) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:33:20.492+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:33:20.492+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:33:20.492+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:33:20.510+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:33:21.139+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:33:21.139+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:33:21.153+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:33:21.153+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:33:21.169+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.679 seconds
+[2023-07-06T04:35:03.552+0545] {processor.py:157} INFO - Started process (PID=42901) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:35:03.553+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:35:03.554+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:35:03.554+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:35:03.572+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:35:04.201+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:35:04.201+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:35:04.215+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:35:04.215+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:35:04.231+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.680 seconds
+[2023-07-06T04:36:47.386+0545] {processor.py:157} INFO - Started process (PID=42971) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:36:47.388+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:36:47.388+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:36:47.388+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:36:47.406+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:36:48.034+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:36:48.034+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:36:48.048+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:36:48.048+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:36:48.064+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.678 seconds
+[2023-07-06T04:38:27.459+0545] {processor.py:157} INFO - Started process (PID=43026) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:38:27.460+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:38:27.461+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:38:27.461+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:38:27.478+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:38:28.102+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:38:28.101+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:38:28.116+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:38:28.115+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:38:28.134+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.675 seconds
+[2023-07-06T04:40:10.626+0545] {processor.py:157} INFO - Started process (PID=43083) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:40:10.628+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:40:10.628+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:40:10.628+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:40:10.646+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:40:11.277+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:40:11.276+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:40:11.291+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:40:11.291+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:40:11.307+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.681 seconds
+[2023-07-06T04:41:56.076+0545] {processor.py:157} INFO - Started process (PID=43146) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:41:56.078+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:41:56.078+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:41:56.078+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:41:56.096+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:41:56.734+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:41:56.733+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:41:56.749+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:41:56.749+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:41:56.765+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.689 seconds
+[2023-07-06T04:43:40.530+0545] {processor.py:157} INFO - Started process (PID=43236) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:43:40.531+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:43:40.531+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:43:40.531+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:43:40.550+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:43:41.202+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:43:41.202+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:43:41.216+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:43:41.216+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:43:41.233+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.704 seconds
+[2023-07-06T04:45:22.901+0545] {processor.py:157} INFO - Started process (PID=43299) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:45:22.901+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:45:22.903+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:45:22.903+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:45:22.920+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:45:23.615+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:45:23.615+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:45:23.629+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:45:23.629+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:45:23.644+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.744 seconds
+[2023-07-06T04:47:08.303+0545] {processor.py:157} INFO - Started process (PID=43360) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:47:08.305+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:47:08.305+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:47:08.305+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:47:08.323+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:47:08.955+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:47:08.955+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:47:08.970+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:47:08.970+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:47:08.986+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.683 seconds
+[2023-07-06T04:48:51.755+0545] {processor.py:157} INFO - Started process (PID=43417) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:48:51.756+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:48:51.756+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:48:51.756+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:48:51.774+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:48:52.400+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:48:52.400+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:48:52.414+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:48:52.414+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:48:52.429+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.675 seconds
+[2023-07-06T04:50:29.156+0545] {processor.py:157} INFO - Started process (PID=43469) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:50:29.157+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:50:29.157+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:50:29.157+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:50:29.175+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:50:29.801+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:50:29.801+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:50:29.815+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:50:29.815+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:50:29.830+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.675 seconds
+[2023-07-06T04:52:10.462+0545] {processor.py:157} INFO - Started process (PID=43527) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:52:10.464+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:52:10.464+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:52:10.464+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:52:10.481+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:52:11.112+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:52:11.112+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:52:11.126+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:52:11.126+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:52:11.142+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.680 seconds
+[2023-07-06T04:53:47.965+0545] {processor.py:157} INFO - Started process (PID=43579) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:53:47.966+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:53:47.967+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:53:47.967+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:53:47.985+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:53:48.633+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:53:48.633+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:53:48.647+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:53:48.647+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:53:48.663+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.699 seconds
+[2023-07-06T04:55:31.193+0545] {processor.py:157} INFO - Started process (PID=43634) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:55:31.194+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:55:31.195+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:55:31.195+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:55:31.212+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:55:31.835+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:55:31.835+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:55:31.849+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:55:31.849+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:55:31.866+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.673 seconds
+[2023-07-06T04:57:12.743+0545] {processor.py:157} INFO - Started process (PID=43698) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:57:12.744+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:57:12.745+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:57:12.745+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:57:12.763+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:57:13.404+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:57:13.404+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:57:13.419+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:57:13.419+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:57:13.434+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.691 seconds
+[2023-07-06T04:58:55.964+0545] {processor.py:157} INFO - Started process (PID=43800) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:58:55.966+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T04:58:55.966+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:58:55.966+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:58:55.984+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T04:58:56.614+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:58:56.614+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T04:58:56.628+0545] {logging_mixin.py:149} INFO - [2023-07-06T04:58:56.628+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T04:58:56.644+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.680 seconds
+[2023-07-06T05:00:36.079+0545] {processor.py:157} INFO - Started process (PID=43854) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:00:36.080+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:00:36.080+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:00:36.080+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:00:36.098+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:00:36.728+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:00:36.727+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:00:36.742+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:00:36.742+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:00:36.758+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.680 seconds
+[2023-07-06T05:02:19.942+0545] {processor.py:157} INFO - Started process (PID=43914) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:02:19.943+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:02:19.944+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:02:19.944+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:02:19.961+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:02:20.596+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:02:20.595+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:02:20.610+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:02:20.610+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:02:20.625+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.684 seconds
+[2023-07-06T05:04:02.908+0545] {processor.py:157} INFO - Started process (PID=43974) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:04:02.910+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:04:02.910+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:04:02.910+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:04:02.928+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:04:03.557+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:04:03.557+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:04:03.571+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:04:03.571+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:04:03.586+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.678 seconds
+[2023-07-06T05:05:48.282+0545] {processor.py:157} INFO - Started process (PID=44029) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:05:48.283+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:05:48.283+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:05:48.283+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:05:48.301+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:05:48.947+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:05:48.947+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:05:48.962+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:05:48.961+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:05:48.978+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.696 seconds
+[2023-07-06T05:07:33.149+0545] {processor.py:157} INFO - Started process (PID=44088) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:07:33.151+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:07:33.151+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:07:33.151+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:07:33.168+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:07:33.801+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:07:33.801+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:07:33.816+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:07:33.816+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:07:33.833+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.685 seconds
+[2023-07-06T05:09:18.895+0545] {processor.py:157} INFO - Started process (PID=44150) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:09:18.896+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:09:18.897+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:09:18.896+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:09:18.914+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:09:19.534+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:09:19.534+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:09:19.549+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:09:19.549+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:09:19.564+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.670 seconds
+[2023-07-06T05:11:01.803+0545] {processor.py:157} INFO - Started process (PID=44206) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:11:01.804+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:11:01.804+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:11:01.804+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:11:01.822+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:11:02.448+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:11:02.448+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:11:02.462+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:11:02.462+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:11:02.480+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.678 seconds
+[2023-07-06T05:12:39.227+0545] {processor.py:157} INFO - Started process (PID=44267) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:12:39.228+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:12:39.229+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:12:39.229+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:12:39.246+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:12:39.893+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:12:39.893+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:12:39.907+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:12:39.907+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:12:39.922+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.696 seconds
+[2023-07-06T05:14:16.822+0545] {processor.py:157} INFO - Started process (PID=44324) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:14:16.824+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:14:16.824+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:14:16.824+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:14:16.842+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:14:17.474+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:14:17.474+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:14:17.488+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:14:17.488+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:14:17.508+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.686 seconds
+[2023-07-06T05:15:59.841+0545] {processor.py:157} INFO - Started process (PID=44386) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:15:59.843+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:15:59.843+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:15:59.843+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:15:59.861+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:16:00.489+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:16:00.489+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:16:00.503+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:16:00.503+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:16:00.520+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.679 seconds
+[2023-07-06T05:17:45.242+0545] {processor.py:157} INFO - Started process (PID=44443) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:17:45.243+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:17:45.243+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:17:45.243+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:17:45.261+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:17:45.890+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:17:45.890+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:17:45.904+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:17:45.904+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:17:45.919+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.678 seconds
+[2023-07-06T05:19:21.587+0545] {processor.py:157} INFO - Started process (PID=44499) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:19:21.588+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:19:21.589+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:19:21.589+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:19:21.606+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:19:22.231+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:19:22.231+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:19:22.246+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:19:22.246+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:19:22.262+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.676 seconds
+[2023-07-06T05:21:00.130+0545] {processor.py:157} INFO - Started process (PID=44552) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:21:00.131+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:21:00.132+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:21:00.132+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:21:00.149+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:21:00.772+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:21:00.772+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:21:00.786+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:21:00.786+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:21:00.803+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.674 seconds
+[2023-07-06T05:22:41.034+0545] {processor.py:157} INFO - Started process (PID=44609) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:22:41.035+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:22:41.036+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:22:41.036+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:22:41.061+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:22:41.731+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:22:41.731+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:22:41.746+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:22:41.746+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:22:41.764+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.730 seconds
+[2023-07-06T05:24:25.023+0545] {processor.py:157} INFO - Started process (PID=44669) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:24:25.024+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:24:25.025+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:24:25.025+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:24:25.042+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:24:25.667+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:24:25.666+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:24:25.680+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:24:25.680+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:24:25.696+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.674 seconds
+[2023-07-06T05:26:06.807+0545] {processor.py:157} INFO - Started process (PID=44726) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:26:06.808+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:26:06.808+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:26:06.808+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:26:06.826+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:26:07.457+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:26:07.456+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:26:07.472+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:26:07.471+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:26:07.488+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.682 seconds
+[2023-07-06T05:27:49.813+0545] {processor.py:157} INFO - Started process (PID=44806) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:27:49.814+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:27:49.815+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:27:49.815+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:27:49.832+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:27:50.466+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:27:50.465+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:27:50.480+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:27:50.480+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:27:50.495+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.683 seconds
+[2023-07-06T05:29:33.996+0545] {processor.py:157} INFO - Started process (PID=44919) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:29:33.998+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:29:33.998+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:29:33.998+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:29:34.016+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:29:34.644+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:29:34.644+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:29:34.658+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:29:34.658+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:29:34.674+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.679 seconds
+[2023-07-06T05:31:17.016+0545] {processor.py:157} INFO - Started process (PID=44985) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:31:17.018+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:31:17.018+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:31:17.018+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:31:17.036+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:31:17.672+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:31:17.672+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:31:17.686+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:31:17.686+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:31:17.702+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.687 seconds
+[2023-07-06T05:32:59.649+0545] {processor.py:157} INFO - Started process (PID=45058) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:32:59.650+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:32:59.651+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:32:59.651+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:32:59.668+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:33:00.297+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:33:00.297+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:33:00.312+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:33:00.312+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:33:00.328+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.679 seconds
+[2023-07-06T05:34:39.784+0545] {processor.py:157} INFO - Started process (PID=45112) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:34:39.785+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:34:39.786+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:34:39.785+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:34:39.803+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:34:40.455+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:34:40.455+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:34:40.469+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:34:40.469+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:34:40.485+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.702 seconds
+[2023-07-06T05:36:22.892+0545] {processor.py:157} INFO - Started process (PID=45170) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:36:22.893+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:36:22.893+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:36:22.893+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:36:22.910+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:36:23.532+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:36:23.532+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:36:23.546+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:36:23.546+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:36:23.562+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.671 seconds
+[2023-07-06T05:38:06.705+0545] {processor.py:157} INFO - Started process (PID=45226) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:38:06.705+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:38:06.706+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:38:06.706+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:38:06.723+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:38:07.350+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:38:07.350+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:38:07.365+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:38:07.364+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:38:07.380+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.676 seconds
+[2023-07-06T05:39:49.447+0545] {processor.py:157} INFO - Started process (PID=45283) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:39:49.448+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:39:49.449+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:39:49.449+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:39:49.466+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:39:50.097+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:39:50.097+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:39:50.111+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:39:50.111+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:39:50.127+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.680 seconds
+[2023-07-06T05:41:31.477+0545] {processor.py:157} INFO - Started process (PID=45342) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:41:31.478+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:41:31.478+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:41:31.478+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:41:31.496+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:41:32.128+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:41:32.128+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:41:32.142+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:41:32.142+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:41:32.158+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.682 seconds
+[2023-07-06T05:43:15.488+0545] {processor.py:157} INFO - Started process (PID=45398) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:43:15.488+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:43:15.489+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:43:15.489+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:43:15.506+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:43:16.133+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:43:16.132+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:43:16.146+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:43:16.146+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:43:16.162+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.675 seconds
+[2023-07-06T05:44:58.003+0545] {processor.py:157} INFO - Started process (PID=45470) to work on /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:44:58.004+0545] {processor.py:826} INFO - Processing file /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py for tasks to queue
+[2023-07-06T05:44:58.004+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:44:58.004+0545] {dagbag.py:541} INFO - Filling up the DagBag from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:44:58.023+0545] {processor.py:836} INFO - DAG(s) dict_keys(['task_20230706000034']) retrieved from /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py
+[2023-07-06T05:44:58.659+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:44:58.659+0545] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-06T05:44:58.673+0545] {logging_mixin.py:149} INFO - [2023-07-06T05:44:58.673+0545] {dag.py:3486} INFO - Setting next_dagrun for task_20230706000034 to 2023-07-07T00:00:00+00:00, run_after=2023-07-08T00:00:00+00:00
+[2023-07-06T05:44:58.691+0545] {processor.py:179} INFO - Processing /Users/rojeshprajapati/Desktop/practise/flask/dags/task_20230706000034.py took 0.689 seconds
