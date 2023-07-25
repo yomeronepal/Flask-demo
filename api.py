@@ -66,5 +66,4 @@ def health_check():
 
 @app.route("/check/", methods=["GET"])
 def just_check():
-    print("hello world")
     return {"uri": os.environ.get("DATABASE_URI")}, 200
