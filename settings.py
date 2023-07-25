@@ -3,11 +3,16 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_cors import CORS
 from celery import Celery
+import os
+from dotenv import load_dotenv
+
+# Load .env file
+load_dotenv()
 
 
 # from celery_task.task import add_numbers
 
-database_uri = "sqlite:///test.db"
+database_uri = os.environ.get("DATABASE_URI")
 # database_uri = "postgresql://postgres:postgres@postgres:5432/practise"
 sql_lite_db_uri = "sqlite:///test.db"
 app = Flask(__name__)
