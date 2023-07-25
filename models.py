@@ -8,7 +8,7 @@ class Todo(db.Model):
         db.String(200),
     )
     description = db.Column(db.String(10000))
-    completed = db.Column(db.Integer, default=0)
+    is_completed = db.Column(db.Integer, default=0)
     date_created = db.Column(db.DateTime, default=datetime.utcnow)
     event_date = db.Column(db.DateTime)
 
