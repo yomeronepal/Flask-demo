@@ -17,6 +17,7 @@ COPY . ${WorkDir}
 RUN pip install -r requirements.txt
 RUN flask db upgrade
 EXPOSE 8000
-CMD python app.py
+# CMD python app.py
+CMD ["/entrypoint"]
 
 
