@@ -14,7 +14,7 @@ def index():
     print(request.method)
     if request.method == "POST":
         test_content = request.form["content"]
-        new_task = Todo(description=test_content)
+        new_task = Todo(title=test_content)
         try:
             db.session.add(new_task)
             db.session.commit()
