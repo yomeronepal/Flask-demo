@@ -8,9 +8,10 @@ class Todo(db.Model):
         db.String(200),
     )
     description = db.Column(db.String(10000))
-    is_completed = db.Column(db.Integer, default=0)
+    completed = db.Column(db.Integer, default=0)
     date_created = db.Column(db.DateTime, default=datetime.utcnow)
     event_date = db.Column(db.DateTime)
+    content = db.Column(db.String(10000))
 
     def __repr__(self):
         return "<Task %r>" % self.id
@@ -19,8 +20,9 @@ class Todo(db.Model):
         return {
             "id": self.id,
             "title": self.title,
-            "completed": self.is_completed,
+            "completed": self.completed,
             "date_created": self.date_created.strftime("%d-%m-%y"),
             "description": self.description,
             "event_date": self.event_date,
+            "content": self.content,
         }

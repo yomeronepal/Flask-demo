@@ -40,7 +40,9 @@ def todo():
         return todos, 200
     elif request.method == "POST":
         data = request.get_json()
-        todo = todo_repo.create(data["title"], data["date"], data["description"])
+        todo = todo_repo.create(
+            data["title"], data["date"], data["description"], data["content"]
+        )
         return jsonify(todo.serialize()), 201
 
 

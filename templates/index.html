@@ -9,8 +9,9 @@
   </tr>
   {% for todo in context.todos %}
   <tr>
-    <td>{{todo.description}}</td>
+    <td>{{todo.content}}</td>
     <td>{{todo.date_created}}</td>
+    <td>{{todo.completed}}</td>
     <td>
       <a href="/delete/{{todo.id}}/">Delete</a> <br />
       <a href="/update/{{todo.id}}/">Update</a>

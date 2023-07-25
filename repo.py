@@ -15,11 +15,12 @@ class TodoRepo(TodoInterface):
         todos = Todo.query.order_by(Todo.date_created).all()
         return jsonify([todo.serialize() for todo in todos])
 
-    def create(self, content: str, date_created, description):
+    def create(self, title: str, date_created, description, content):
         todo = Todo(
-            title=content,
+            title=title,
             event_date=datetime.strptime(date_created, "%d/%m/%Y"),
             description=description,
+            content=content,
         )
         try:
             db.session.add(todo)
