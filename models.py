@@ -19,7 +19,7 @@ class Todo(db.Model):
         return {
             "id": self.id,
             "title": self.title,
-            "completed": self.completed,
+            "completed": self.is_completed,
             "date_created": self.date_created.strftime("%d-%m-%y"),
             "description": self.description,
             "event_date": self.event_date,
