@@ -14,8 +14,8 @@
 
 # exec "$@"
 
-# activate the virtual environment
-. /opt/pysetup/.venv/bin/activate
+# # activate the virtual environment
+# . /opt/pysetup/.venv/bin/activate
 
 flask db upgrade
 
