@@ -16,10 +16,10 @@ RUN pip install --upgrade pip
 COPY . ${WorkDir}
 RUN pip install -r requirements.txt
 RUN flask db upgrade
-RUN sed -i 's/\r$//g' /entrypoint
-RUN chmod +x /entrypoint
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 EXPOSE 8000
 # CMD python app.py
-CMD ["/entrypoint"]
+CMD ["/entrypoint.sh"]
 
 
