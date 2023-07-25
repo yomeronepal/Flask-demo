@@ -55,8 +55,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Create ENV File
-        run: cp .env.template .env
+      # - name: Create ENV File
+      #   run: cp .env.template .env
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
